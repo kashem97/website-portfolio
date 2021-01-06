@@ -67,10 +67,16 @@ a{
     
 }
 .work-inquary{
-    
+    background-image: url("images/Group_33094_1.png");
+    background-size: 50%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 250px; 
 }
 .work-inquary-box{
-    background-image: url("images/Group_33094_1.png");
-    width: 50%;
-    height: auto;
+    padding-left: 50%;
+}
+.work-inquary-heding{
+    padding-left: 50%;
+    text-align: left;
 }
