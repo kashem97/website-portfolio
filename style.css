@@ -8,7 +8,7 @@ h1{
     font-size: 50px;
 }
 section{
-    height: 100px;
+    height: 800px;
 }
 .introduction-area{
 
@@ -19,7 +19,58 @@ section{
     padding-left: 2%;
     float: left;
 }
+.profile-name-heighligh{
+    color: #FF8367;
+}
 .half-width img{
     width: 100%;
-    margin-top: -200px;
+    height: auto;
+    margin-top: -100px;
+}
+.link-button{
+    background-image: linear-gradient(45deg, #F56160,#FB7462);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.project-area{
+    background-color: #F8F9FC;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+.project-area h1{
+    text-align: center;
+}
+.project-area-heding-heilight{
+    color: #F46060;
+}
+.project{
+    width: 25%;
+    float: left;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box{
+    margin: 10px;
+}
+.project img{
+    width: 100%;
+    height: auto;
+}
+.call-to-action-area{
+    
+}
+.work-inquary{
+    
+}
+.work-inquary-box{
+    background-image: url("images/Group_33094_1.png");
+    width: 50%;
+    height: auto;
 }
