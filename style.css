@@ -8,10 +8,10 @@ h1{
     font-size: 50px;
 }
 section{
-    height: 800px;
 }
 .introduction-area{
-
+padding-top: 50px;    
+height: 450px;
 }
 .half-width{
     width: 40%;
@@ -23,9 +23,8 @@ section{
     color: #FF8367;
 }
 .half-width img{
-    width: 100%;
+    width: 70%;
     height: auto;
-    margin-top: -100px;
 }
 .link-button{
     background-image: linear-gradient(45deg, #F56160,#FB7462);
@@ -37,10 +36,14 @@ a{
     color: white;
     font-weight: 600;
 }
+.about-area{
+    height: 600px;
+}
 .project-area{
     background-color: #F8F9FC;
     padding-top: 20px;
     padding-left: 10%;
+    height: 800px;
 }
 .project-area h1{
     text-align: center;
@@ -63,20 +66,37 @@ a{
     width: 100%;
     height: auto;
 }
-.call-to-action-area{
-    
+.call-to-action{
+    height: 400px;
+    background-color:white;
+    position: relative;
 }
-.work-inquary{
-    background-image: url("images/Group_33094_1.png");
-    background-size: 50%;
-    background-position: center; 
-    background-repeat: no-repeat;
-    height: 250px; 
+.box{
+    height: 207px;
+    width: 844px;
+    background: url(./images/Group_33094_1.png);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-44%,45%);
 }
-.work-inquary-box{
-    padding-left: 50%;
+.box h1{
+    color: white;
+    margin: 60px;
 }
-.work-inquary-heding{
-    padding-left: 50%;
-    text-align: left;
+.btn{
+    top: 0;
+    height: 41px;
+    width: 150px;
+    background:red;
+    position: absolute;
+    right: 61px;
+    top: 92px;
+    border-radius: 13px;
+}
+.btn>a{
+    padding: 10px;
+    padding-top: 10px;
+    /* text-transform: uppercase; */
 }
